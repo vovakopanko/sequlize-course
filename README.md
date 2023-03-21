@@ -1,0 +1,6 @@
+#Sequilize
+
+##Prerequisites
+
+*NVM
+*Docker
