@@ -9,7 +9,7 @@
     "dev": "NODE_ENV=development nodemon --exec babel-node",
     "debug": "npm run dev -- --inspect",
     "test": "jest --runInBand",
-    "test:watch": "npm test -- --watch", 
+    "test:watch": "npm test -- --watch",
     "test:coverage": "npm test -- --coverage"
   },
   "keywords": [],
@@ -33,6 +33,7 @@
     "jsonwebtoken": "^9.0.0",
     "morgan": "^1.10.0",
     "pg": "^8.10.0",
+    "sequelize": "^6.29.3",
     "sequelize-cli": "^6.6.0"
   }
 }

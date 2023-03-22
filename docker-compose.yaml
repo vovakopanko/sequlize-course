@@ -2,7 +2,7 @@ version: '3'
 services:
   postgres:
     image: postgres:13
-    container_name: sequlize-course-db
+    container_name: sequelize-course-db
     env_file:
       - .env
     environment:
@@ -11,7 +11,7 @@ services:
       - ${DB_PORT:-5432}:5432
   postgres-test:
     image: postgres:13
-    container_name: sequlize-course-test-db
+    container_name: sequelize-course-test-db
     env_file:
       - .env
     environment:
