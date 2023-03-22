@@ -1,6 +1,6 @@
 export default {
   port: parseInt(process.env.PORT) || 8080,
-  nodeEnv: process.env.NODE_ENV || 'prodaction',
+  nodeEnv: process.env.NODE_ENV || 'production',
   saltRounds: parseInt(process.env.SALT_ROUNDS) || 10,
   jwtAccessTokenSecret:
     process.env.JWT_ACCESS_TOKEN_SECRET || 'ac849cbed10d42829281815be6089853',
