@@ -1,6 +1,6 @@
 import './config';
 import Database from './database';
-import environment from './config/evironment';
+import environment from './config/environment';
 import dbCofig from './config/database';
 
 (async () => {
