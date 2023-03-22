@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import environment from '../config/evironment';
+import environment from '../config/environment';
 
 export default class JWTUtils {
   static generateAccessToken(payload, options = {}) {
