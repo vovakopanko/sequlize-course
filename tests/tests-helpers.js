@@ -4,7 +4,7 @@ import dbConfig from '../src/config/database';
 
 let db;
 
-export default class TestHerper {
+export default class TestsHelpers {
   static async startDb() {
     db = new DataBase('test', dbConfig);
     await db.connect();
@@ -13,7 +13,8 @@ export default class TestHerper {
   static async stopDb() {
     await db.disconnect();
   }
-  static async syncDB() { //reser DB, every connection to server, we clear all table on DB
+  static async syncDb() {
+    //reser DB, every connection to server, we clear all table on DB
     await db.sync();
   }
 }
